@@ -9,6 +9,7 @@ TagManager:
   - Bullet
   - TP
   - enemy(bullet)
+  - finish
   layers:
   - Default
   - TransparentFX
