@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class boss : MonoBehaviour
+public class boss2 : MonoBehaviour
 {
-    private float hp = 500f;
+    private float hp = 5000f;
 
     void Start()
     {

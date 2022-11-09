@@ -115,5 +115,14 @@ public class Player1 : MonoBehaviour
         {
           SceneManager.LoadScene("Level2");
         }
+        if (other.gameObject.tag == "finish")
+        {
+          SceneManager.LoadScene("Level1");
+        }
+        if (other.gameObject.tag == "Enemy")
+        {
+            gameObject.SetActive(false);
+            Destroy(gameObject);
+        }
     }
   }
